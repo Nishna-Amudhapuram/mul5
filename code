@@ -1,0 +1,7 @@
+
+lower = int(input("enter the lower range: "))
+upper = int(input("enter the upper range: "))
+
+for num in range(lower, upper):
+    if num%5 ==0:
+        print(num)
